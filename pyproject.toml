@@ -1,0 +1,18 @@
+[project]
+name = "chat-memory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=1.65.0",
+    "mcp[cli]>=1.26.0",
+    "openai>=2.24.0",
+    "psycopg[binary]>=3.1",
+    "pgvector>=0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.19.0",
+]
