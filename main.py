@@ -1,4 +1,4 @@
-from chat_memory import mcp
+from app.mcp.server import mcp
 
 def main():
     mcp.run(transport="stdio")
